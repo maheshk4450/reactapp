@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    min-height: 10vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(81, 81, 211), rgb(248, 65, 93));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sign-in-card {
+    width: 450px;
+    background: rgb(52, 52, 89), rgb(248, 65, 93);
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sign-in-card::before {
+    content: '';
+    position: absolute;
+    background: rgb(108, 67, 77);
+    inset: o;
+    transform: rotate(-5deg);
+    z-index: -1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sign-in-logo {
+    margin-bottom: 2rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+.sign-in-logo img {
+    width: 90px;
+    padding-left: 11vmax;
 }
+.sign-in-card-form{
+  margin-top:10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+}
+.form-item{
+    border-radius:10px;
+    padding:12px;
+    
+
+}
+.input{
+    width:300px;
+    height:30px;
+    border-radius:6px
+}
+.other-platforms{
+    margin:10px;
+    padding: 2px;
+   
+
 }
