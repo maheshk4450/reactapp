@@ -46,8 +46,6 @@ function App() {
             <button class="sign-in-btn">sign in</button>
 
             <div><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjQ5p7L3577AhUTnUsFHcSnCqAYABAAGgJzZg&ohost=www.google.com&cid=CAESauD2j4_Hkh1iO4uOVULvudICcdOYqj6rfdvbHyYU5Dmw-0UZbx4HlQCDRaSLLlQYcTovkdBskM6teNS5qXdqoazErasptOLzy0VBa9MvmTj9jCduPao62yibWBMa0gMV5CFX7UyawcZit58&sig=AOD64_1yZeyXtm7_13FTz-l6jbG1faUc9w&q&adurl&ved=2ahUKEwifqpjL3577AhWL9zgGHa0vANsQ0Qx6BAgJEAE">create new account?</a></div>
-
-
         </form>
         <div class="sign-in-footer">
             <div class="other-platforms">
