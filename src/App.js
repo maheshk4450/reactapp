@@ -1,9 +1,24 @@
 // import logo from './logo.svg';
 import './App.css';
+// import Myapp from './child';
+// import Child2 from './child2'
+// import Class3 from './child3';
+import Addition from './addition'
+import Subraction from './subratcion'
+import Multiplication from './mult';
+import Division from './divi';
 
 function App() {
+    let a= 20;
+    let b =30;
   return (
     <div class="sign-in-container">
+        
+    <Addition  A={a} B={b}/>
+    <Subraction A={a} B={b}/>
+    <Multiplication A={a} B={b}/>
+    <Division A={a} B={b}/>
+
     <div class="sign-in-card">
         <div class="sign-in-logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo"/>
@@ -78,9 +93,12 @@ function App() {
 
     </div>
 
-
+   
+   
 
 </div>
+
+
     
   );
 }
