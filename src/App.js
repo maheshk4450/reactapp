@@ -1,21 +1,20 @@
 // import logo from './logo.svg';
 import './App.css';
-// import Myapp from './child';
-// import Child2 from './child2'
-// import Class3 from './child3';
 import Addition from './addition'
-import Subraction from './subratcion'
 import Multiplication from './mult';
 import Division from './divi';
+import Subraction from './subratcion';
+import Objects  from './objects';
+
 
 function App() {
     let a= 20;
     let b =30;
   return (
     <div class="sign-in-container">
-        
+   <Objects />
     <Addition  A={a} B={b}/>
-    <Subraction A={a} B={b}/>
+   <Subraction A={a} B={b}/>
     <Multiplication A={a} B={b}/>
     <Division A={a} B={b}/>
 
@@ -41,13 +40,13 @@ function App() {
             <div class="form-item">
                 <span class="material-symbols-outlined">
                     mail
-                </span> <input type="text" class="input" placeholder="mail" required autofocus/>
+                </span> <input type="text" class="input ml-3" placeholder="mail" required autofocus/>
             </div>
 
             <div class="form-item">
                 <span class="material-symbols-outlined">
                     lock
-                </span> <input type="text" class="input" placeholder="enter password" required/>
+                </span> <input type="text" class="input ml-5" placeholder="enter password" required/>
             </div>
 
             <div class="form-itemcheck">
