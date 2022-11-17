@@ -1,20 +1,23 @@
-import Componet from './componet'
-const Objects = () => {
-    const[X,setx] = [{ name: "maheshk", age: 24, class: "veda" },
-               { name: "bharath", age: 24, class: "v" },
-               { name: "narayana", age: 26, class: "o" },
-               { name: "me", age: 565, class: "u" }
-             ];
+// import Componet from './componet'
+// import { useState } from 'react';
+// import State1 from './states';
+
+// const Objects = (props) => {
+//     const[A,setb] = useState(2110101101)
+//     const[B,seta]=useState()
+
+
            
-            const update=()=>({...X[1],name:'mbfhdy',age:26,class:'cvbn'})
-    return (
-        <>
-        <button onClick={()=>X.update()}></button>
-
+            
+//     return (
+//         <>
+//         <h1>{A}</h1>
+//         <State1 a={A}/>
+          
          
-            <Componet a={X}/>
+           
 
-        </>
-    )
-}
-export default Objects;
+//         </>
+//     )
+// }
+// export default Objects;

@@ -1,27 +1,30 @@
 // import logo from './logo.svg';
 import './App.css';
-import Addition from './addition'
-import Multiplication from './mult';
-import Division from './divi';
-import Subraction from './subratcion';
-import Objects from './objects';
-import State1 from './states';
+// import Addition from './addition'
+// import Multiplication from './mult';
+// import Division from './divi';
+// import Subraction from './subratcion';
+// import Objects from './objects';
+// import State1 from './states';
+import MyForms from './Crenderforms'; 
 
 
 function App() {
-    let a = 20;
-    let b = 30;
+    // let a = 20;
+    // let b = 30;
     return (
         <div class="sign-in-container">
 
+          <MyForms/>
 
-<State1/>
-{/* 
-            <Objects /> */}
+
+{/* <State1/>
+
+            <Objects />
     <Addition  A={a} B={b}/>
    <Subraction A={a} B={b}/>
     <Multiplication A={a} B={b}/>
-    <Division A={a} B={b}/>
+    <Division A={a} B={b}/> */}
 
             <div class="sign-in-card">
                 <div class="sign-in-logo">
