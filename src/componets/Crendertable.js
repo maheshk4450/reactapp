@@ -7,21 +7,26 @@ const Table=(props)=>{
     <tr>
       <th scope="col">name</th>
       <th scope="col">age</th>
-      <th scope="col">college</th>
+      <th scope="col">collage</th>
       <th scope="col">course</th>
+      <th scope="col">section</th>
       <th scope="col">school</th>
       <th scope="col">gender</th>
+      <th scope="col">board</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
+      <td>{props.data.name}</td>
+      <td>{props.data.age}</td>
+      <td></td>
       <td>{}</td>
       <td>{}</td>
       <td>{}</td>
+      <td>{props.data.gender}</td>
+      <td></td>
       <td>{}</td>
-      <td>{}</td>
-      <td>{}</td>
+    
     </tr>
     
   </tbody>
