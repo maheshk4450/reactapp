@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { useParams } from 'react-router-dom';
 import Table1 from "./Crendertable";
 const MyForms = () => {
+
+    const {display} = useParams();
     const [school, setschool] = useState(false)
     const [collage, setcollage] = useState(false)
     const [gender, setgender] = useState("")
@@ -26,7 +29,7 @@ const MyForms = () => {
 
                     <div className="form1">
                         <h1>studentdatails:</h1>
-
+<h3>display:{display}</h3>
                         <forms className="form-1">
 
                             <label class="" ><h3>name</h3></label>

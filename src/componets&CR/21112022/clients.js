@@ -7,7 +7,7 @@ const Clients = (props) => {
 
     return (
         <main>
-            <form>
+            <form> 
                 <b>clientdetails:-</b><input type="checkbox"
                     aria-label="checkbox"
                    

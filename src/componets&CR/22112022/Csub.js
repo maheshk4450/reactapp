@@ -7,6 +7,10 @@ const SUB = (props)=>{
     const minus=()=>{
        props.subractiion(a-b);
     }
+    const mul=(mul)=>{
+        props.multiplication(a*b)
+    }
+
 
 
     return(
@@ -23,7 +27,7 @@ const SUB = (props)=>{
                 /><br/>
 
                 <><button class="btn btn-outline-dark"  onClick={()=>minus()}>subract</button></>
-
+                <><button class="btn btn-outline-dark" onClick={()=>mul()}>mul</button></>
 
 
             </div>

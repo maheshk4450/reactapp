@@ -1,10 +1,12 @@
 import react from "react"
 import { useState } from "react"
 
+
 const Company = (props) => {
     const [comapnyname, setcompany] = useState(false)
 
     const [status, setStatus] = useState("")
+ 
 
     const upstatus = (e) => {
         setStatus(e.target.value)
@@ -13,6 +15,7 @@ const Company = (props) => {
     }
 
     return (
+       
         <main>
 
             <div>
@@ -75,6 +78,7 @@ const Company = (props) => {
 
 
         </main>
+        
     )
 }
 export default Company;
