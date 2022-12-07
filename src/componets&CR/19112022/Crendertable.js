@@ -1,8 +1,9 @@
+
 import React from "react"
-const Table=(props)=>{
+const Table1=(props)=>{
     return(<main>
 
-<table class="table">
+<table class="table1">
   <thead>
     <tr>
       <th scope="col">name</th>
@@ -17,13 +18,13 @@ const Table=(props)=>{
   </thead>
   <tbody>
     <tr>
-      <td>{props.data.name}</td>
-      <td>{props.data.age}</td>
+      <td>{}</td>
+      <td>{}</td>
       <td></td>
       <td>{}</td>
       <td>{}</td>
       <td>{}</td>
-      <td>{props.data.gender}</td>
+      <td>{}</td>
       <td></td>
       <td>{}</td>
     
@@ -37,4 +38,4 @@ const Table=(props)=>{
 
     )
 }
-export default Table;
+export default Table1;

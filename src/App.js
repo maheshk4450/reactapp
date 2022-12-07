@@ -1,25 +1,25 @@
-// import logo from './logo.svg';
+
 import './App.css';
-// import Addition from './addition'
-// import Multiplication from './mult';
-// import Division from './divi';
-// import Subraction from './subratcion';
-// import Objects from './objects';
-// import State1 from './states';
-import MyForms from './componets/Crenderforms'; 
 
-
+// import MyForms from './componets&CR/19112022/Crenderforms'
+// import OUtput from './componets&CR/22112022/Coutput'
+import MainForm from './componets&CR/21112022/formCR';
 function App() {
     // let a = 20;
     // let b = 30;
     return (
-        
+
         <div class="sign-in-container">
 
-          <MyForms/>
+
+            {/* <OUtput/> */}
+
+            <MainForm />
+
+            {/* <MyForms/> */}
 
 
-{/* <State1/>
+            {/* <State1/>
 
             <Objects />
     <Addition  A={a} B={b}/>
